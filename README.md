@@ -7,7 +7,6 @@ This is the front end of the Expense Tracker web application built using the MER
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
