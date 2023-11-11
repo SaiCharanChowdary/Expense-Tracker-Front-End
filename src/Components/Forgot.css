@@ -1,0 +1,72 @@
+.input-group{
+    position: relative;
+}
+
+.input-group__input {
+    font: inherit;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    outline: 2px solid #fff;
+    background-color: transparent;
+    transition: outline-color 500ms;
+}
+
+.input-group__input:is(:focus, :valid){
+    outline-color: #101010;
+}
+
+.input-group__label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 10px 10px;
+    color: #000;
+    transition: translate 500ms,
+        scale 500ms;
+}
+
+.input-group__input:focus +
+.input-group__label,
+.input-group__input:valid +
+.input-group__label {
+    padding-inline: 5px;
+    translate: 10px -14px;
+    scale: 0.8;
+    background-color: #fff;
+}
+
+/* styles.css */
+
+.title {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for different screen sizes */
+  
+
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  }
+  
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .title {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+  }
+  
+
+  
+  
+
+
